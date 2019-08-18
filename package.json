@@ -1,0 +1,32 @@
+{
+  "name": "project11",
+  "version": "1.0.0",
+  "description": "Responsive Music Player",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "Music",
+    "Media",
+    "Player",
+    "Online",
+    "Songs",
+    "Queen",
+    "Twenty",
+    "One",
+    "Pilots",
+    "Imagine",
+    "Dragons",
+    "Panic",
+    "at",
+    "the",
+    "disco",
+    "Synaptik"
+  ],
+  "author": "Abod Bazyan",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

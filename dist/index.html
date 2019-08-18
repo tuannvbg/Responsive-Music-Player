@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Musicator 3000</title>
+</head>
+
+<body>
+
+    <!-- Container for all Desktop backgrounds and the app itself -->
+    <div class="bg">
+        <!-- The Background Element for Desktop/Mobile -->
+        <img src="" alt="" id="dynamic-bg">
+
+        <!-- Responsive Navigation Menu -->
+        <!-- NAVIGATION MENU -->
+        <nav class='cf'>
+            <ul class='cf'>
+                <li>
+                    <a href='index.html'>Music Player</a>
+                </li>
+                <li>
+                    <a href='javascript:void(0)'>Future Plans</a>
+                </li>
+                <li>
+                    <a href='javascript:void(0)'>How to Add my Music</a>
+                </li>
+                <li>
+                    <a href='javascript:void(0)'>Become a Member</a>
+                </li>
+                <li>
+                    <a href='javascript:void(0)'>Report</a>
+                </li>
+                <li>
+                    <a href='javascript:void(0)'>Rate my App</a>
+                </li>
+            </ul>
+            <a href='#' id='openup'>Musicator 3000</a>
+        </nav>
+
+        <!-- Container for the Media Player and control Buttons-->
+        <div class="container overlay">
+
+            <!-- the circled image -->
+            <div class="song-img-box">
+                <div class="song-img">
+                    <img src="imgs/none.jpg" alt="" class="wait" id="circled-img">
+                </div>
+                <!-- class (wait) as remove from the image
+                        as soon as the first song starts playing -->
+            </div>
+
+            <!-- Start of Player -->
+            <div class="player">
+
+                <!-- Song Name Animation -->
+                <div class="song-name">
+                    <p>Nothing is playing...</p>
+                </div>
+
+                <!-- The Song progress BAR -->
+                <div class="tracker">
+                    <div class="progress-bar">
+                        <span class="progress"></span>
+                    </div>
+                    <span class="duration">--:--</span>
+                </div>
+
+                <!-- Control Buttons -->
+                <div class="controls">
+                    <div class="button" id="backward"><i class="fas fa-backward"></i></div>
+                    <div class="button" id="pause"><i class="fas fa-pause"></i></div>
+                    <div class="button" id="play"><i class="fas fa-play"></i></div>
+                    <div class="button" id="forward"><i class="fas fa-forward"></i></div>
+                </div>
+
+                <div class="volume-box">
+                    <input type="range" id="volume" min="0" max="100" value="100">
+                </div>
+            </div><!-- End of Player -->
+
+        </div> <!-- END OF THE Container of the Media Player and control Buttons-->
+
+
+        <!-- The Songs container -->
+        <div class="container overlay" style="margin-top: 20px;padding: 15px;">
+            <!-- Twenty One Pilots -->
+            <div class="title">Twenty One Pilots</div>
+            <ul class="folder" id="twenty-one-pilots">
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Bandito" cover="imgs/covers/img-B.jpg">Bandito</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Blurryface Acapella Medley" cover="imgs/covers/img-B.jpg">Blurryface Acapella Medley</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Cant help falling in love" cover="imgs/covers/img-B.jpg">Cant help falling in love</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Car Radio" cover="imgs/covers/img-B.jpg">Car Radio</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Chlorine" cover="imgs/covers/img-B.jpg">Chlorine</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Doubt" cover="imgs/covers/img-B.jpg">Doubt</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Fairly Local" cover="imgs/covers/img-B.jpg">Fairly Local</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Goner" cover="imgs/covers/img-B.jpg">Goner</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Guns for hands" cover="imgs/covers/img-B.jpg">Guns for hands</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Heathens" cover="imgs/covers/img-B.jpg">Heathens</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - HeavyDirtySoul" cover="imgs/covers/img-B.jpg">HeavyDirtySoul</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - HomeTown" cover="imgs/covers/img-B.jpg">HomeTown</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - House of Gold" cover="imgs/covers/img-B.jpg">House of Gold</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Jumpsuit" cover="imgs/covers/img-B.jpg">Jumpsuit</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Lane Boy" cover="imgs/covers/img-B.jpg">Lane Boy</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Legend" cover="imgs/covers/img-B.jpg">Legend</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Levitate" cover="imgs/covers/img-B.jpg">Levitate</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Message Man" cover="imgs/covers/img-B.jpg">Message Man</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Migraine" cover="imgs/covers/img-B.jpg">Migraine</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Morph" cover="imgs/covers/img-B.jpg">Morph</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - My Blood" cover="imgs/covers/img-B.jpg">My Blood</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Nico and the Niners" cover="imgs/covers/img-B.jpg">Nico and the Niners</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Not Today" cover="imgs/covers/img-B.jpg">Not Today</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Polarize" cover="imgs/covers/img-B.jpg">Polarize</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Ride" cover="imgs/covers/img-B.jpg">Ride</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Smithereens" cover="imgs/covers/img-B.jpg">Smithereens</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Stressed Out" cover="imgs/covers/img-B.jpg">Stressed Out</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - Tear in my Heart" cover="imgs/covers/img-B.jpg">Tear in my Heart</li>
+                <li class="" artist="Twenty One Pilots" song="Twenty One Pilots - The judge" cover="imgs/covers/img-B.jpg">The judge</li>
+            </ul>
+
+            <!-- Queen -->
+            <div class="title">Queen</div>
+            <ul class="folder" id="">
+                <li class="" artist="Queen" song="Queen - Another one bites the dust" cover="imgs/covers/img-E.jpeg">Another one bites the dust</li>
+                <li class="" artist="Queen" song="Queen - Dont stop me now" cover="imgs/covers/img-E.jpeg">Dont stop me now</li>
+                <li class="" artist="Queen" song="Queen - Somebody to love" cover="imgs/covers/img-E.jpeg">Somebody to love</li>
+                <li class="" artist="Queen" song="Queen - We are the champions" cover="imgs/covers/img-E.jpeg">We are the champions</li>
+                <li class="" artist="Queen" song="Queen - We will rock you" cover="imgs/covers/img-E.jpeg">We will rock you</li>
+            </ul>
+
+            <!-- Synatpik -->
+            <div class="title">The Synaptik</div>
+            <ul class="folder" id="">
+                <li class="" artist="The Synaptik" song="The Synaptik - Mesh Saheelk" cover="imgs/covers/img-A.jpg">Mesh Saheelk</li>
+                <li class="" artist="The Synaptik" song="The Synaptik - Om Al-Mawjat" cover="imgs/covers/img-A.jpg">Om Al-Mawjat</li>
+                <li class="" artist="The Synaptik" song="The Synaptik - Rakz" cover="imgs/covers/img-A.jpg">Rakz</li>
+                <li class="" artist="The Synaptik" song="The Synaptik - Ritalin" cover="imgs/covers/img-A.jpg">Ritalin</li>
+                <li class="" artist="The Synaptik" song="The Synaptik - Soda-Bas" cover="imgs/covers/img-A.jpg">Soda-Bas</li>
+                <li class="" artist="The Synaptik" song="The Synaptik - Tol Al-Leil" cover="imgs/covers/img-A.jpg">Tol Al-Leil</li>
+            </ul>
+
+            <!-- Panic! at the Disco -->
+            <div class="title">Panic! at the Disco</div>
+            <ul class="folder" id="">
+                <li class="" artist="Panic! at the Disco" song="Panic! at the Disco - Bohemian Rhapsody" cover="imgs/covers/img-D.jpg">Bohemian Rhapsody</li>
+                <li class="" artist="Panic! at the Disco" song="Panic! at the Disco - Death of a Bachelor" cover="imgs/covers/img-D.jpg">Death of a Bachelor</li>
+                <li class="" artist="Panic! at the Disco" song="Panic! at the Disco - Emperors New Clothes" cover="imgs/covers/img-D.jpg">Emperors New Clothes</li>
+                <li class="" artist="Panic! at the Disco" song="Panic! at the Disco - Miss Jackson" cover="imgs/covers/img-D.jpg">Miss Jackson</li>
+                <li class="" artist="Panic! at the Disco" song="Panic! at the Disco - This is Gospel(Original)" cover="imgs/covers/img-D.jpg">This is Gospel(Original)</li>
+                <li class="" artist="Panic! at the Disco" song="Panic! at the Disco - This is Gospel(Piano Version)" cover="imgs/covers/img-D.jpg">This is Gospel(Piano Version)</li>
+                <li class="" artist="Panic! at the Disco" song="Panic! at the Disco - Victorious" cover="imgs/covers/img-D.jpg">Victorious</li>
+            </ul>
+
+            <!-- Imagine Dragons -->
+            <div class="title">Imagine Dragons</div>
+            <ul class="folder" id="">
+                <li class="" artist="Imagine Dragons" song="Imagine Dragons - Believer" cover="imgs/covers/img-C.jpg">Believer</li>
+                <li class="" artist="Imagine Dragons" song="Imagine Dragons - Demons" cover="imgs/covers/img-C.jpg">Demons</li>
+                <li class="" artist="Imagine Dragons" song="Imagine Dragons - Friction" cover="imgs/covers/img-C.jpg">Friction</li>
+                <li class="" artist="Imagine Dragons" song="Imagine Dragons - Natural" cover="imgs/covers/img-C.jpg">Natural</li>
+                <li class="" artist="Imagine Dragons" song="Imagine Dragons - Radioactive" cover="imgs/covers/img-C.jpg">Radioactive</li>
+                <li class="" artist="Imagine Dragons" song="Imagine Dragons - Thunder" cover="imgs/covers/img-C.jpg">Thunder</li>
+                <li class="" artist="Imagine Dragons" song="Imagine Dragons - Whatever it takes" cover="imgs/covers/img-C.jpg">Whatever it takes</li>
+                <li class="" artist="unset" song="Nothing is playing..." cover="imgs/none.jpg" id="inital" style="display: none;"></li>
+            </ul>
+        </div>
+    </div><!-- END OF THE MAIN CONTAINER -->
+    <script src="js/jquery.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
